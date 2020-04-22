@@ -51,7 +51,8 @@ int main(int argc, char * argv[]) {
 
         get_page(data, statistic, backing_store);
         statistic->n_read++;
-        sleep(1);        
+        usleep(150000);
+        system("clear");
     }
 
     // Print out the stats

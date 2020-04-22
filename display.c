@@ -20,10 +20,14 @@ void display_stats(struct stat* statistic)
 
 void display_output(struct memory* data)
 {
-    printf("\n\nFrame number\t: %d\n\n", data->frame_number);
-    printf("data->offset\t\t: %d\n\n", data->offset);
     
-    printf("Virtual address: %d \n\nPhysical address: %d \n\nValue: %d\n\n", data->logical_address, (data->frame_number << 8) | data->offset, data->current_value);
+    printf("Virtual address\t: %d \n\nPhysical address: %d", data->logical_address, (data->frame_number << 8) | data->offset);
+    
+    printf("\n\nFrame number\t: %d\n\n", data->frame_number);
+    
+    printf("data->offset\t: %d\n\n", data->offset);
+
+    printf("Value: %d\n\n", data->current_value);
 }
 
 #endif 
