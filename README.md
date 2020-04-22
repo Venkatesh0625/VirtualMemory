@@ -4,7 +4,7 @@ An easy to use viewable virtual memory implementation in **C** programming langu
 
 ## Getting Started
 
-- The project [report](https://github.com/Venkatesh0625/VirtualMemory/blob/master/Project%20report.docx?raw=true) will go through the basics of virtual memory related to this project
+- The project [report](https://github.com/Venkatesh0625/VirtualMemory/blob/master/ProjectReport.docx?raw=true) will go through the basics of virtual memory related to this project
 
 - Give it a read 
 
